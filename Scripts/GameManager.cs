@@ -287,6 +287,14 @@ public class GameManager : MonoBehaviour
 
         #endregion
 
+        public void EnableContinue()
+        {
+            if(enableContinue)
+            {
+                MainMenu.instance.continueButton.SetActive(true);
+            }
+        }
+
     #endregion
 
     #region Coroutines
